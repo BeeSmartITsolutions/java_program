@@ -1,0 +1,21 @@
+package addnobybufferreader;
+
+import java.io.BufferedReader;
+
+public class buffer {
+	public static void main(String args[]){
+		int a,b,c;
+		
+		BufferedReader enter = new BufferedReader( InputStreamReader (System.in)); 
+		
+		System.out.println("Enter the first number: ");
+		a = enter.readLine();
+		
+		System.out.println("Enter the second number: ");
+		b = enter.readLine();
+		
+		c= a+b;
+		
+		System.out.print("Sum of two numbers is " +c);
+	}
+}

@@ -1,0 +1,23 @@
+package addnobyscanner;
+
+import java.util.Scanner;
+
+class Read {
+	public static void main(String s[]){
+		int a, b,c;
+		
+		Scanner x = new Scanner(System.in);
+		
+		System.out.println("Enter the first number: ");
+		a = input.nextInt();
+		
+		System.out.println("Enter the second number: ");
+		b = input.nextInt();
+		
+		c= a+b;
+		
+		System.out.print("Sum of two numbers is " +c);
+		
+	}
+
+}
